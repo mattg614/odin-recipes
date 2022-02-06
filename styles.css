@@ -1,7 +1,7 @@
 * {
     background-color: blanchedalmond;
 }
-h1.index {
+h1 {
     background-color: cadetblue;
     color: hsl(0, 15%, 90%);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -9,11 +9,61 @@ h1.index {
     font-size: 10vw;
 }
 
-.index, .list *{
+.list *{
     background-color: cadetblue;
     color: whitesmoke;
     text-align: center;
     font-size: 5vw;
     list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name {
+    font-size: 8vw;
+}
+.img {
+    width:50vw;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #555;
+}
+
+.description, .ingredients, .steps{
+    background-color: cadetblue;
+    color: whitesmoke;
+    font-family: cursive, 'Times New Roman', sans-serif;
+    font-size: 6vw;
+    width:30vw;
+    border:5px solid black;
+}
+.recipe-wrap p, .recipe-wrap p a {
+    color:rgb(26, 34, 56);
+    font-size: 1.5vw;
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.ingredients-list {
+    list-style: circle inside;
+    text-align: left;
+    font-size: 2vw;
+    color:tomato;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.steps-list {
+    text-align: justify;
+    font-size: 2vw;
+    color:rgb(26, 34, 56);
+    font-family: "Times New Roman", serif;
+    list-style: lower-roman;
+}
+
+h4 {
+    text-align: center;
+    font-size:1.25vw;
+    font-family: 'Courier New', Courier, monospace;
+
 }
